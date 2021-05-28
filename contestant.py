@@ -1,7 +1,11 @@
 class Contestant:
 
-    def __init__(self, fname, lname, email, registration_number):
-        self.first_name = fname
-        self.last_name = lname
-        self.email = email
-        self.registration_number = registration_number
+    def __init__(self):
+        self.first_name = ''
+        self.last_name = ''
+        self.email = ''
+        self.registration_number = None
+
+# will complete once all other methods are fully functioning
+    def notify(self, is_winner):
+        pass
